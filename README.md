@@ -8,7 +8,7 @@ Practicing use of version control systems (Lab 3)
 ### How to prepare for the Lab 3: 
 
 1. Fork the `https://github.com/den1s0v/dvcs-lab3` repo into your account on Github.
-1. While the lab process you should push your changes into your own remove repo.
+1. While the lab process you should push your changes into your own remote repo.
 
 ### Members: 
 
