@@ -51,6 +51,7 @@ QPushButton* CreateProductionDialog::setDeleteButton(int row) {
 	button->setCursor(Qt::PointingHandCursor);
 	button->setCursor(Qt::PointingHandCursor);
 	button->setProperty("row", row);
+	button->setProperty("row", row);
 	connect(button, SIGNAL(clicked()), this, SLOT(deleteWork()));
 	return button;
 }
