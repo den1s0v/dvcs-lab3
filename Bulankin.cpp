@@ -14,6 +14,7 @@ AuthorizationDialog::~AuthorizationDialog() {
 }
 
 void AuthorizationDialog::authorize() {
+	int s = 0;
 	QString login = ui.loginLineEdit->text();
 	QString password = ui.passwordLineEdit->text();
 	if (password.length() < MIN_PASSWORD_LENGTH) {
