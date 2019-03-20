@@ -8,7 +8,7 @@ import Tabs from 'react-bootstrap/lib/Tabs'
 import Tab from 'react-bootstrap/lib/Tab'
 import Table from 'react-bootstrap/lib/Table'
 
-//master 1
+//master 2
 
 export class MySamples extends Component {
     constructor(props) {
