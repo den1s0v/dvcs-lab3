@@ -69,6 +69,6 @@ void AuthorizationDialog::authorize() {
 		currentUser = queryIdSelect.value(0).toInt();
 		isAdmin = false;
 	}
-	
+	int gens = 0;
 	emit showMainWindow(currentUser, isAdmin);
 }
