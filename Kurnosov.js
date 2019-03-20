@@ -19,6 +19,7 @@ class App extends Component {
     )
   }
   //commit в своей 1
+  //commit в своей 2
 }
 
 export default hot(App);
