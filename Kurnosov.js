@@ -7,6 +7,8 @@ import { Route } from "react-router-dom"
 import { Index } from "./Index";
 import { Samples } from "./Samples";
 
+// Commit 1
+
 class App extends Component {
 
   render() {
