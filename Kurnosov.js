@@ -18,6 +18,7 @@ class App extends Component {
       </div>
     )
   }
+  //commit в своей 1
 }
 
 export default hot(App);
