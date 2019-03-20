@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
 export function NavBar(props) {
     return (
@@ -19,7 +20,9 @@ export function NavBar(props) {
 }
 
 
-export function Func(props) {
+
+
+export function NavBar2(props) {
     return (
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="/">Web Regexp</Navbar.Brand>
@@ -34,7 +37,6 @@ export function Func(props) {
       </Navbar>
     );
 }
-
 
 export function Func2(props) {
     return (
@@ -51,3 +53,4 @@ export function Func2(props) {
       </Navbar>
     );
 }
+
