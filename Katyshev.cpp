@@ -8,6 +8,7 @@ RegisterWorkerDialog::RegisterWorkerDialog(QWidget *parent) : QDialog(parent) {
 
 	connect(ui.registerButton, SIGNAL(clicked()), this, SLOT(registerWorker()));
 	connect(ui.cancelButton, SIGNAL(clicked()), this, SLOT(cancelRegister()));
+	//Комментарий
 }
 
 RegisterWorkerDialog::~RegisterWorkerDialog() {
@@ -93,3 +94,5 @@ void RegisterWorkerDialog::registerWorker() {
 }
 //First commit in branch Katyshev
 //Second commit in branch Katyshev
+//Commit Katyshev 1
+//Commit Katyshev 2

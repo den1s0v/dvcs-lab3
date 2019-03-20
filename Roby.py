@@ -16,11 +16,15 @@ def terminate_with_error(err_str):
     print('Error:')
     print('\t', err_str)
     exit()
+	
+	#Second commit
 
 
 def show_warning(warn_str):
     print('Warning:')
     print('\t', warn_str)
+
+	#Change 4
 
 
 def write_url_error_to_log(log_fd, url):
