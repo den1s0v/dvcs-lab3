@@ -29,7 +29,7 @@ export class Sample extends Component {
 		
 		if ( !this.state.canSolve ) {
 			
-			alert("You already solve this task");
+			alert("You already solve this task twice");
 		}
 		else if ( value === this.props.sample.answer ) {
 				
