@@ -91,3 +91,4 @@ void RegisterWorkerDialog::registerWorker() {
 	QString errorMessage = codec->toUnicode("");
 	emit workerRegistered(true, errorMessage, userId.toInt(), fio, date, login);
 }
+//First commit in branch Katyshev
