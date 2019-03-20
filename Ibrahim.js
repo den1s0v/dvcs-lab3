@@ -58,7 +58,6 @@ export class Sample extends Component {
     render () {
 		
 		const handleHide = () => this.setState({ show: false });
-		const handleShow = () => this.setState({ show: true });
 		return (
 		  <div>
 			<Alert show={this.state.show} variant="dark">
