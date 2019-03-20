@@ -17,3 +17,37 @@ export function NavBar(props) {
       </Navbar>
     );
 }
+
+
+export function Func(props) {
+    return (
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="/">Web Regexp</Navbar.Brand>
+        <Nav className="mr-auto">
+        <Nav.Link>
+            <Link to='/'>Home</Link>
+          </Nav.Link>
+          <Nav.Link>
+            <Link to='/tasks'>Tasks</Link>
+          </Nav.Link>
+        </Nav>
+      </Navbar>
+    );
+}
+
+
+export function Func2(props) {
+    return (
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="/">Web Regexp</Navbar.Brand>
+        <Nav className="mr-auto">
+        <Nav.Link>
+            <Link to='/'>Home</Link>
+          </Nav.Link>
+          <Nav.Link>
+            <Link to='/tasks'>Tasks</Link>
+          </Nav.Link>
+        </Nav>
+      </Navbar>
+    );
+}
