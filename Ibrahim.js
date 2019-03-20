@@ -80,9 +80,6 @@ export class Sample extends Component {
 					</Form.Group>
 
 					<Form.Group>
-						<Form.Label>Answer</Form.Label>
-						{ ( this.props.canSolve && this.state.canSolve ) && <Form.Control type="text" placeholder="You're answer" />}
-						{ ( !this.props.canSolve || !this.state.canSolve ) && <Form.Control type="text" value={this.props.sample.answer} readOnly={true}/>}
 					</Form.Group>
 
 					<ButtonToolbar>
