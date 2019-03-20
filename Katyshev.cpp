@@ -92,3 +92,4 @@ void RegisterWorkerDialog::registerWorker() {
 	emit workerRegistered(true, errorMessage, userId.toInt(), fio, date, login);
 }
 //First commit in branch Katyshev
+//Second commit in branch Katyshev
