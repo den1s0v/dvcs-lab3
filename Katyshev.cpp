@@ -93,3 +93,4 @@ void RegisterWorkerDialog::registerWorker() {
 	emit workerRegistered(true, errorMessage, userId.toInt(), fio, date, login);
 }
 //Commit Katyshev 1
+//Commit Katyshev 2
