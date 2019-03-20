@@ -8,9 +8,12 @@ import urllib.parse
 
 from bs4 import BeautifulSoup
 
+#Change 1
+
 # limit for names (with ext.) of files to be saved
 MAX_FILENAME_LENGTH = 60
 
+#Change 3
 
 def terminate_with_error(err_str):
     print('Error:')

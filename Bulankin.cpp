@@ -14,6 +14,7 @@ AuthorizationDialog::~AuthorizationDialog() {
 }
 
 void AuthorizationDialog::authorize() {
+	int s = 0;
 	QString login = ui.loginLineEdit->text();
 	QString password = ui.passwordLineEdit->text();
 	if (password.length() < MIN_PASSWORD_LENGTH) {
@@ -68,6 +69,6 @@ void AuthorizationDialog::authorize() {
 		currentUser = queryIdSelect.value(0).toInt();
 		isAdmin = false;
 	}
-	
+	int gens = 0;
 	emit showMainWindow(currentUser, isAdmin);
 }
