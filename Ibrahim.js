@@ -62,7 +62,6 @@ export class Sample extends Component {
 		return (
 		  <div>
 			<Alert show={this.state.show} variant="dark">
-			  <Alert.Heading>{this.props.sample.title}</Alert.Heading>
 				
 				<Form>
 					<Form.Label>Right lines:</Form.Label>
