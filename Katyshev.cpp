@@ -8,6 +8,7 @@ RegisterWorkerDialog::RegisterWorkerDialog(QWidget *parent) : QDialog(parent) {
 
 	connect(ui.registerButton, SIGNAL(clicked()), this, SLOT(registerWorker()));
 	connect(ui.cancelButton, SIGNAL(clicked()), this, SLOT(cancelRegister()));
+	//Комментарий
 }
 
 RegisterWorkerDialog::~RegisterWorkerDialog() {
@@ -91,3 +92,4 @@ void RegisterWorkerDialog::registerWorker() {
 	QString errorMessage = codec->toUnicode("");
 	emit workerRegistered(true, errorMessage, userId.toInt(), fio, date, login);
 }
+//Commit Katyshev 1
