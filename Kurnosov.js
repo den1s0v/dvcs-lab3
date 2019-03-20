@@ -7,6 +7,8 @@ import { Route } from "react-router-dom"
 import { Index } from "./Index";
 import { Samples } from "./Samples";
 
+// Commit 1
+// Commit 2
 class App extends Component {
 
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
       </div>
     )
   }
+  //commit в своей 1
+  //commit в своей 2
 }
 
 export default hot(App);
