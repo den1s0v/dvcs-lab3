@@ -49,7 +49,6 @@ QPushButton* CreateProductionDialog::setDeleteButton(int row) {
 	QPushButton* button = new QPushButton(codec->toUnicode("Убрать"), this);
 	button->setStyleSheet("background:none;color:blue;text-decoration:underline;border:none;text-align:left;");
 	button->setCursor(Qt::PointingHandCursor);
-	connect(button, SIGNAL(clicked()), this, SLOT(deleteWork()));
 	return button;
 }
 
