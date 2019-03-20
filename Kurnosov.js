@@ -8,7 +8,7 @@ import { Index } from "./Index";
 import { Samples } from "./Samples";
 
 // Commit 1
-
+// Commit 2
 class App extends Component {
 
   render() {
